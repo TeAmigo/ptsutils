@@ -60,7 +60,7 @@ public class SymbolMaxDateLastExpiry {
         //reset token number
 
       }
-      System.out.println(tokenNumber + " lines read from ContractInfoFile" + filePath);
+      System.out.println(tokenNumber + " lines read from ContractInfoFile - " + filePath);
     } catch (Exception e) {
       System.err.println("Exception while reading ContractInfoFile file: " + e);
       System.err.println("Format is symbol, expiry, exchange, beginDateTime, endDateTime");
